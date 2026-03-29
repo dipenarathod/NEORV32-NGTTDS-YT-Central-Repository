@@ -1,0 +1,85 @@
+V "GNAT Lib v14"
+M P W=8
+A -Og
+A -gnatA
+A --RTS=/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/
+A -mabi=ilp32
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatwa
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnatyb
+A -gnatyc
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyI
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatW8
+A -gnat2022
+A -misa-spec=20191213
+A -march=rv32i_zicsr_zifencei
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U yt_demo%b		yt_demo.adb		ade893dd NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W neorv32%s		neorv32.ads		neorv32.ali
+W neorv32.uart0%s	neorv32-uart0.ads	neorv32-uart0.ali
+W runtime_support%s	runtime_support.adb	runtime_support.ali
+W uart0%s		uart0.adb		uart0.ali
+
+D ada.ads		20250921045803 76789da1 ada%s
+D a-textio.ads		20250921045803 6c013a58 ada.text_io%s
+D interfac.ads		20250921045803 9111f9c1 interfaces%s
+D interrupts.ads	20251024231132 56bb57a4 interrupts%s
+D neorv32.ads		20251024231132 d5039e82 neorv32%s
+D neorv32-uart0.ads	20251024231132 7c81d2e1 neorv32.uart0%s
+D runtime_support.ads	20260320065850 7bf0b3fb runtime_support%s
+D system.ads		20250921045803 28e4acdd system%s
+D s-stoele.ads		20250921045803 ccded4e8 system.storage_elements%s
+D uart0.ads		20251024231132 bac314ca uart0%s
+D yt_demo.adb		20260329123514 a95842d7 yt_demo%b
+G a e
+G c Z b b [yt_demo standard 9 11 none]
+G r c none [yt_demo standard 9 11 none] [init uart0 3 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|7r6 7r23
+X 2 a-textio.ads
+36K13*Text_IO 62e16 11|7w10 7r27
+54U14*Put_Line 11|12s4
+X 5 neorv32.ads
+11K9*neorv32 107e12 11|3r6 4w6
+X 6 neorv32-uart0.ads
+10K17*UART0 132e18 11|3w14
+X 7 runtime_support.ads
+3K9*Runtime_Support 6e20 11|1w6 1r27
+X 10 uart0.ads
+1K9*Uart0 5e10 11|5w6 11r4
+3U14*Init 11|11s10
+X 11 yt_demo.adb
+9U11*Yt_Demo 9b11 14l5 14t12
+

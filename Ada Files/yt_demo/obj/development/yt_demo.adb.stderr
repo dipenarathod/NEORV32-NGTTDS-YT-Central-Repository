@@ -1,0 +1,5 @@
+yt_demo.adb:1:06: warning: no entities of "Runtime_Support" are referenced [-gnatwu]
+yt_demo.adb:1:23: warning: use clause for package "Runtime_Support" has no effect [-gnatwu]
+yt_demo.adb:3:13: warning: unit "neorv32.UART0" is not referenced [-gnatwu]
+yt_demo.adb:4:06: warning: no entities of "neorv32" are referenced [-gnatwu]
+yt_demo.adb:11:14: (style) space required [-gnatyt]

@@ -1,0 +1,108 @@
+V "GNAT Lib v14"
+M P W=8
+A -Og
+A -O3
+A -gnatA
+A --RTS=/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/
+A -mabi=ilp32
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatwa
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnatyb
+A -gnatyc
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyI
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatW8
+A -gnat2022
+A -gnatn
+A -misa-spec=20191213
+A -march=rv32i_zicsr_zifencei
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U led_blink%b		led_blink.adb		c592aeb7 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interrupts%s		interrupts.adb		interrupts.ali
+W neorv32%s		neorv32.ads		neorv32.ali
+W neorv32.gpio%s	neorv32-gpio.ads	neorv32-gpio.ali
+W neorv32.sysinfo%s	neorv32-sysinfo.ads	neorv32-sysinfo.ali
+W neorv32.uart0%s	neorv32-uart0.ads	neorv32-uart0.ali
+W runtime_support%s	runtime_support.adb	runtime_support.ali
+W system%s		system.ads		system.ali
+W uart0%s		uart0.adb		uart0.ali
+
+D ada.ads		20250921045803 76789da1 ada%s
+D a-textio.ads		20250921045803 6c013a58 ada.text_io%s
+D interfac.ads		20250921045803 9111f9c1 interfaces%s
+D interrupts.ads	20251024231132 56bb57a4 interrupts%s
+D led_blink.adb		20260327124703 a2d0679c led_blink%b
+D neorv32.ads		20251024231132 d5039e82 neorv32%s
+D neorv32-gpio.ads	20251024231132 1eae08a3 neorv32.gpio%s
+D neorv32-sysinfo.ads	20251024231132 03f41a3d neorv32.sysinfo%s
+D neorv32-uart0.ads	20251024231132 7c81d2e1 neorv32.uart0%s
+D runtime_support.ads	20260130062553 7bf0b3fb runtime_support%s
+D system.ads		20250921045803 28e4acdd system%s
+D s-stoele.ads		20250921045803 ccded4e8 system.storage_elements%s
+D uart0.ads		20251024231132 bac314ca uart0%s
+G a e
+G c Z b b [led_blink standard 16 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 5|8r6 8r25 12r6 12r27
+X 2 a-textio.ads
+36K13*Text_IO 62e16 5|8w10 8r29 12w10 12r31
+X 3 interfac.ads
+38K9*Interfaces 233e15 5|7w6 7r25
+81M9*Unsigned_32
+X 4 interrupts.ads
+1K9*Interrupts 79e15 5|3w6
+X 5 led_blink.adb
+16U11*Led_Blink 16b11 37l5 37t14
+17m4 Dummy{6|19M9} 18r21 26m10 26r19 34m10 34r19
+25i11 I{integer}
+33i11 I{integer}
+X 6 neorv32.ads
+11K9*neorv32 5|4r6 4r25 5w6 9w6 9r25 13r6 13r27 14r6 14r27 6|107e12
+19M9*UInt32<3|81M9> 5|17r12
+X 7 neorv32-gpio.ads
+8K17*GPIO 5|14w14 14r35 7|43e17
+24m7*INPUT1{6|19M9} 5|22m19 30m19
+40r4*GPIO_Periph{20R9} 5|22m7 30m7
+X 8 neorv32-sysinfo.ads
+10K17*SYSINFO 5|13w14 13r35 8|253e20
+X 9 neorv32-uart0.ads
+10K17*UART0 5|4w14 4r33 9|132e18
+X 10 runtime_support.ads
+3K9*Runtime_Support 5|2w6 10|6e20
+X 11 system.ads
+55K9*System 5|1w6 10w6 11|169e11
+X 13 uart0.ads
+1K9*Uart0 5|6w6 13|5e10
+

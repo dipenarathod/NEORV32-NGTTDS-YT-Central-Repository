@@ -1,0 +1,29 @@
+[GENERATED OBJECT FILE]
+b__yt_demo.o
+[PROJECT FILES]
+/home/dipen/Downloads/neorv32-setups-main_1/neorv32-setups-main/neorv32-hal-main/yt_demo/yt_demo.gpr
+20260329121158 7ede09978f9d6a72b17b66d6fdc2bdb4
+/home/dipen/Downloads/neorv32-setups-main_1/neorv32-setups-main/neorv32-hal-main/config/neorv32_hal_config.gpr
+20260329113543 37d40915b906241a3919371297392466
+/home/dipen/Downloads/neorv32-setups-main_1/neorv32-setups-main/neorv32-hal-main/neorv32_hal.gpr
+20251024231132 ec2eec5499dbd11ae7c5f59d5000c097
+/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/target_options.gpr
+20250921045803 f41afb90e77c63a9385fba3b7aa239f1
+/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/bare_runtime.gpr
+20250921045803 be29748ec64a1d4ced472bb9ced44188
+/home/dipen/Downloads/neorv32-setups-main_1/neorv32-setups-main/neorv32-hal-main/yt_demo/config/yt_demo_config.gpr
+20260329122407 b43ea838f85fc2b9e4287af2b68441a1
+[BOUND OBJECT FILES]
+/home/dipen/Downloads/neorv32-setups-main_1/neorv32-setups-main/neorv32-hal-main/yt_demo/obj/development/runtime_support.o
+/home/dipen/Downloads/neorv32-setups-main_1/neorv32-setups-main/neorv32-hal-main/yt_demo/obj/development/yt_demo.o
+[GENERATED SOURCE FILES]
+b__yt_demo.ads
+b__yt_demo.adb
+b__yt_demo.ali
+[RESULTING OPTIONS]
+-L/home/dipen/Downloads/neorv32-setups-main_1/neorv32-setups-main/neorv32-hal-main/yt_demo/obj/development/
+-L/home/dipen/Downloads/neorv32-setups-main_1/neorv32-setups-main/neorv32-hal-main/yt_demo/obj/development/
+-L/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/adalib/
+-L/home/dipen/Downloads/neorv32-setups-main_1/neorv32-setups-main/neorv32-hal-main/lib/
+-static
+/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/adalib/libgnat.a

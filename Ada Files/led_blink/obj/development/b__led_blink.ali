@@ -1,0 +1,55 @@
+V "GNAT Lib v14"
+A -Og
+A -O3
+A -gnatA
+A --RTS=/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/
+A -gnatA
+A -gnatWb
+A -gnatiw
+A -gnatws
+A -mabi=ilp32
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -misa-spec=20191213
+A -march=rv32i_zicsr_zifencei
+P ZX
+
+RN
+RR NO_EXCEPTION_PROPAGATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_OBSOLESCENT_FEATURES
+
+U ada_main%b		b__led_blink.adb	9fd63b50 NE OO PK IL
+Z system%s		system.ads		system.ali
+
+U ada_main%s		b__led_blink.ads	1ecef812 EE NE OO PK IL
+W system%s		system.ads		system.ali
+
+D b__led_blink.ads	20260327124706 362a54cf ada_main%s
+D b__led_blink.adb	20260327124706 a9fc6f9f ada_main%b
+D system.ads		20250921045803 28e4acdd system%s
+G a e
+G c Z s b [adainit ada_main 18 14 none]
+G c Z s b [main ada_main 21 14 none]
+X 1 b__led_blink.ads
+5K9*ada_main 66l5 66e13 2|7b14 52l5 52t13
+8a4*GNAT_Version{string} 10r22 12r54
+12m4*GNAT_Version_Address{3|85M9} 13r22
+15a4*Ada_Main_Program_Name{string} 16r22 2|33r52
+18U14*adainit 19i<c,adainit>22 2|16b14 27l8 27t15 37s7
+21U14*main 22i<c,main>22 2|32b14 39t7
+X 2 b__led_blink.adb
+9i4 E05{short_integer} 9m45 9r45 21m7 21r14
+10i4 E15{short_integer} 10m45 10r45 22m7 22r14
+11i4 E10{short_integer} 11m45 11r45 24m7 24r14
+12i4 E27{short_integer} 12m45 12r45 25m7 25r14
+13i4 E29{short_integer} 13m45 13r45 26m7 26r14
+29U14 Ada_Main_Program 30b<ada,_ada_led_blink>24 38s7
+33m7 Ensure_Reference{3|85M9} 34r24
+X 3 system.ads
+55K9*System 1|4w6 12r36 2|33r34 3|169e11
+85M9*Address 1|12r43 2|33r41
+

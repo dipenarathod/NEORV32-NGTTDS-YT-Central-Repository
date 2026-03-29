@@ -1,0 +1,29 @@
+[GENERATED OBJECT FILE]
+b__led_blink.o
+[PROJECT FILES]
+/home/dipen/Downloads/neorv32-halv2/led_blink/led_blink.gpr
+20260327103121 9ed26e07b21a03bcde71bfae69ecb691
+/home/dipen/Downloads/neorv32-halv2/config/neorv32_hal_config.gpr
+20260327104446 773221eb108bbc43903c3280b5762e16
+/home/dipen/Downloads/neorv32-halv2/neorv32_hal.gpr
+20251024231132 a6f23e4d08e4239deef2ab252d5eac80
+/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/target_options.gpr
+20250921045803 f41afb90e77c63a9385fba3b7aa239f1
+/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/bare_runtime.gpr
+20250921045803 be29748ec64a1d4ced472bb9ced44188
+/home/dipen/Downloads/neorv32-halv2/led_blink/config/led_blink_config.gpr
+20260327102443 779070cfbae558b60da42725ff4c51b6
+[BOUND OBJECT FILES]
+/home/dipen/Downloads/neorv32-halv2/led_blink/obj/development/runtime_support.o
+/home/dipen/Downloads/neorv32-halv2/led_blink/obj/development/led_blink.o
+[GENERATED SOURCE FILES]
+b__led_blink.ads
+b__led_blink.adb
+b__led_blink.ali
+[RESULTING OPTIONS]
+-L/home/dipen/Downloads/neorv32-halv2/led_blink/obj/development/
+-L/home/dipen/Downloads/neorv32-halv2/led_blink/obj/development/
+-L/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/adalib/
+-L/home/dipen/Downloads/neorv32-halv2/lib/
+-static
+/home/dipen/.local/share/alire/builds/bare_runtime_14.0.0_095db6f0/282b01b920f0d5bb2bac604ac6d9e811f26d175144bc99af963e0381e797ee94/adalib/libgnat.a
