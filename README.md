@@ -1,6 +1,6 @@
 # Running Ada Programs on the NEORV32
 
-This program contains links to helpful material and code files to help you develop programs for the NEORV32
+This repository contains links to helpful material and code files to help you develop programs for the NEORV32
 
 ## Relevant Repositories
 - [Ada NEORV32 HAL](https://github.com/GNAT-Academic-Program/neorv32-hal/tree/main)
