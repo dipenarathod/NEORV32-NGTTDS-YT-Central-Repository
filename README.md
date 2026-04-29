@@ -21,3 +21,4 @@ This repository contains links to helpful material and code files to help you de
 ## Walthroughs + Features + Presentation
 - **[NEORV32 + NPU + Camera Controller Features](https://youtu.be/YZdjy-vXNMk)** - Walkthrough of NEORv32 + NPU + Camera Controller VHDL files to show what to change to personalize the system/migrate to a new platform
 - **[Quick Python convert_weight script Usage + Ada Project Setup](https://youtu.be/nBpLutpjnVk?si=aR93uhGkc-HtZxYG)** - Quickly go over how to use the Python convert_weights script + what to do to develop NEORV32 + NPU programs in Ada
+- **[Project Overview](https://youtu.be/6WUX9J_9Snc)** - Presentation showcasing the project, system features, and worst case performance
