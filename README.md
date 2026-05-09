@@ -1,4 +1,4 @@
-# Running C Ada Programs on the NEORV32
+# Running C and Ada Programs on the NEORV32
 
 This repository contains links to helpful material and code files to help you develop programs for the NEORV32
 
