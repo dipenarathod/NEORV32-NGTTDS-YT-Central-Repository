@@ -1,6 +1,6 @@
 # Running C and Ada Programs on the NEORV32
 
-This repository contains links to helpful material and code files to help you develop programs for the NEORV32
+This repository contains links to helpful material and code files to help you develop programs for the NEORV32.
 
 ## Relevant Repositories
 - **[Ada NEORV32 HAL](https://github.com/GNAT-Academic-Program/neorv32-hal/tree/main)** - Ada NEORV32 HAL Required to run Ada programs on the NEORV32
@@ -21,4 +21,4 @@ This repository contains links to helpful material and code files to help you de
 ## Walthroughs + Features + Presentation
 - **[NEORV32 + NPU + Camera Controller Features](https://youtu.be/YZdjy-vXNMk)** - Walkthrough of NEORv32 + NPU + Camera Controller VHDL files to show what to change to personalize the system/migrate to a new platform
 - **[Quick Python convert_weight script Usage + Ada Project Setup](https://youtu.be/nBpLutpjnVk?si=aR93uhGkc-HtZxYG)** - Quickly go over how to use the Python convert_weights script + what to do to develop NEORV32 + NPU programs in Ada
-- **[Project Overview](https://youtu.be/6WUX9J_9Snc)** - Presentation showcasing the project, system features, and worst case performance
+- **[NEORV32 + NPU + Camera Controller Real-Time Gesture Recognition Project Overview](https://youtu.be/6WUX9J_9Snc)** - Presentation showcasing the project (NEORV32 + NPU + Camera controller) developed for real-time object/gesture recognition, system features, and worst-case performance. Please see the individual repositories/videos for more details.
