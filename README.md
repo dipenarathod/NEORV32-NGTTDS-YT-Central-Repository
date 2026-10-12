@@ -2,6 +2,19 @@
 
 This repository contains links to helpful material and code files to help you develop programs for the NEORV32.
 
+## In This Repository
+**[Ada Files](./Ada%20Files)** -  Uses an older NEORV32 build compatible with the Ada HAL. Build linked under "Relevant Repostories"
+- [led_blink](./Ada%20Files/led_blink) - Blink an LED connected to the NEORV32's GPIO
+- [yt_demo](./Ada%20Files/yt_demo) - Hello, World program written for a YouTube video demonstration
+
+**[C](./C)** - Uses the March 7, 2026 NEORV32 build for demonstration
+- [i2c_device](./C/i2c_device) - I2C helper layer + drivers and tests for various I2C devices:
+1) AHT21B
+2) 16x2 LCD
+- [uart_device](./C/uart_device) - UART library and tests for:
+1) ESP-AT firmware: Communicate with an ESP32 running ESP-AT firmware over UART to add WiFi to the NEORV32.
+
+
 ## Relevant Repositories
 - **[Ada NEORV32 HAL](https://github.com/GNAT-Academic-Program/neorv32-hal/tree/main)** - Ada NEORV32 HAL Required to run Ada programs on the NEORV32
 - **[Ada Compatible NEORV32 Setups Folder](https://github.com/GNAT-Academic-Program/neorv32-setups)** - As of March 29th, the Ada HAL works with only a specific fork of the NEORV32. Here is the setups folder fork
