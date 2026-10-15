@@ -2,8 +2,8 @@
 #ifndef TEST_CONFIG_H
 #define TEST_CONFIG_H
 
-#define WIFI_SSID      "RATHODS HOME Sub"
-#define WIFI_PASS      "7738747628"
+#define WIFI_SSID      "SSID Name"
+#define WIFI_PASS      "Password"
 
 #define PC_IP          "192.168.0.99" // PC running "nc -lvp 5000" and "python3 -m http.server 8000"
 #define PC_TCP_PORT    5000
